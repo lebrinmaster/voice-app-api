@@ -1,0 +1,22 @@
+{
+  "name": "voice-app-api",
+  "version": "1.0.0",
+  "description": "Node.js API for voice-app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lebrinmaster/voice-app-api.git"
+  },
+  "author": "Aliaksei Bryniou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lebrinmaster/voice-app-api/issues"
+  },
+  "homepage": "https://github.com/lebrinmaster/voice-app-api#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
