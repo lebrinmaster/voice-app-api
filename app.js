@@ -11,6 +11,12 @@ app.get('/', (req, res) => {
 });
 
 // 404 page
+app.use((req, res, next) => {
+    console.log('middleware');
+    next();
+});
+  
 app.use((req, res) => {
+    console.log('in the next middleware');
     res.status(404).send('404');
 });
