@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "pwa-chrome",
+            "name": "http://localhost:3000/add-test",
+            "request": "launch",
+            "url": "http://localhost:3000/add-test"
+        }
+    ]
+}
